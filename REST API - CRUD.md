@@ -1,4 +1,4 @@
-  PHẦN I: REST API (REpresentational State Transfer Application Programming Interface) 
+PHẦN I: REST API (REpresentational State Transfer Application Programming Interface) 
   
 REST API là một kiểu kiến trúc được sử dụng rộng rãi để xây dựng các giao diện lập trình ứng dụng (API) dựa trên web. Nó đóng vai trò như một cầu nối cho phép các hệ thống phần mềm khác nhau giao tiếp và trao đổi dữ liệu thông qua môi trường internet. 
 
@@ -28,15 +28,17 @@ Tính linh hoạt: Có thể được sử dụng bởi bất kỳ ngôn ngữ l
 Dễ mở rộng: Cấu trúc phân tầng và không trạng thái giúp hệ thống dễ dàng mở rộng quy mô.
 Hiệu suất: Tiết kiệm tài nguyên mạng nhờ các định dạng dữ liệu nhẹ như JSON. 
 
-   Phần II: CRUD
-   
+Phần II: CRUD
+
 CRUD là viết tắt của bốn thao tác cơ bản nhất để quản lý dữ liệu: Create (Tạo), Read (Đọc), Update (Cập nhật) và Delete (Xóa)
+
 1. Ý nghĩa của các thành phần trong CRUD
 Create (C): Thêm dữ liệu mới vào hệ thống (ví dụ: đăng ký tài khoản mới, tạo bài viết mới).
 Read (R): Truy xuất hoặc xem dữ liệu hiện có mà không làm thay đổi nó (ví dụ: xem danh sách sản phẩm, đọc nội dung email).
 Update (U): Chỉnh sửa dữ liệu đã tồn tại (ví dụ: đổi mật khẩu, cập nhật giá sản phẩm).
 Delete (D): Xóa bỏ dữ liệu khỏi hệ thống (ví dụ: xóa một bình luận, hủy đơn hàng).
-2. Ánh xạ CRUD trong thực tế
+
+3. Ánh xạ CRUD trong thực tế
 ### Tùy vào công nghệ bạn sử dụng, CRUD sẽ tương ứng với các lệnh hoặc phương thức cụ thể:
 |Thao tác|SQL (Database)|	HTTP Method (REST API)|	MongoDB (NoSQL)|
 |---------|-----------|---------------|--------|
@@ -45,11 +47,13 @@ Delete (D): Xóa bỏ dữ liệu khỏi hệ thống (ví dụ: xóa một bìn
 |Update|UPDATE|PUT / PATCH|updateOne() / updateMany()|
 |Delete|DELETE|DELETE|deleteOne() / deleteMany()|
 ---
-3. Tại sao CRUD lại quan trọng?
+
+4. Tại sao CRUD lại quan trọng?
 Tiêu chuẩn hóa: CRUD cung cấp một khung làm việc (framework) thống nhất giúp lập trình viên thiết kế hệ thống dữ liệu đầy đủ và dễ bảo trì.
 Quản lý vòng đời dữ liệu: Nó bao quát toàn bộ quá trình của một tài nguyên dữ liệu từ khi được tạo ra cho đến khi bị xóa bỏ.
 Nền tảng cho Backend: 90% thời gian lập trình backend thường xoay quanh việc xử lý các thao tác CRUD
-4. Các biến thể phổ biến của CRUD
+
+5. Các biến thể phổ biến của CRUD
 Ngoài 4 thao tác chính, người ta còn mở rộng thêm các biến thể khác để phù hợp với từng mục đích cụ thể:
 CRUDL: Thêm List (Liệt kê danh sách lớn, thường đi kèm phân trang).
 BREAD: Viết tắt của Browse, Read, Edit, Add, Delete (thường dùng trong thiết kế giao diện người dùng).
