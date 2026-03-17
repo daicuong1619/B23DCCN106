@@ -16,11 +16,17 @@ Khi trao đổi dữ liệu, REST API thường sử dụng các định dạng 
 
 III. Các đặc điểm chính (Constraints)
 Để được gọi là một RESTful API chuẩn, kiến trúc cần tuân thủ 6 ràng buộc cơ bản, bao gồm: 
+
 1.Client-Server: Tách biệt rõ ràng giữa giao diện người dùng và hệ thống lưu trữ dữ liệu.
+
 2.Stateless (Không trạng thái): Mỗi yêu cầu (request) từ client phải chứa đầy đủ thông tin cần thiết để server hiểu và xử lý, không lưu trữ ngữ cảnh giữa các request.
+
 3.Cacheable: Phản hồi từ server có thể được đánh dấu là có thể lưu bộ nhớ đệm (cache) để cải thiện hiệu suất.
+
 4.Layered System (Hệ thống phân tầng): Client không cần biết mình đang kết nối trực tiếp với server cuối hay qua các máy chủ trung gian (như proxy, load balancer).
+
 5.Uniform Interface: Giao diện thống nhất giúp việc giao tiếp giữa các thành phần trở nên đơn giản hơn.
+
 6.Code on Demand (Tùy chọn): Server có thể gửi mã thực thi (như JavaScript) về cho client. 
 
 IV. Lợi ích của REST API
