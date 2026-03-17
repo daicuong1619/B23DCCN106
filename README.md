@@ -43,7 +43,7 @@ Xóa sinh viên.
 > (file / link / screenshot / demo URL)
 
 
-https://github.com/jnp2018/internship-project-daicuong1619/blob/main/timeline-08tuan.md
+https://github.com/daicuong1619/B23DCCN106/blob/main/timeline.md
 
 ## 4. Checklist & Tổng kết
 - [ ] Tham gia đủ **04 buổi trao đổi**
